@@ -23,7 +23,7 @@ def main():
     word_counts = {}
     batch_size = 100000
 
-    with open('large_text_file.txt', 'r', encoding='utf-8') as file:
+    with open('large_text.txt', 'r', encoding='utf-8') as file:
         while True:
             batch_text = file.read(batch_size)
             if not batch_text:

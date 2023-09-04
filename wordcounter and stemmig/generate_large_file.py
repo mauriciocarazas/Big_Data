@@ -18,6 +18,6 @@ def generate_large_file(dictionary_file, output_file, target_size_gb):
 if __name__ == "__main__":
     dictionary_file = "C:\\Users\\mauri\\Escritorio\\words.txt"
     output_file = "C:\\Users\\mauri\\Escritorio\\large_text.txt"
-    target_size_gb = 1
+    target_size_gb = 0.1
 
     generate_large_file(dictionary_file, output_file, target_size_gb)
